@@ -17,7 +17,7 @@ variable "app_repository_name" {
 variable "aws_region" {
   type        = string
   description = "Name of the region where resources will be deployed"
-  default = "eu-west-1"
+  default     = "eu-west-1"
 }
 
 variable "environment" {
@@ -33,56 +33,56 @@ variable "stage" {
 ####### VPC VARIABLES #######
 variable "vpc_name" {
   description = "Common name for the VPC"
-  type = string
-  default = "hawp-vpc"
+  type        = string
+  default     = "hawp-vpc"
 }
 variable "vpc_cidr" {
   description = "CIDR for the VPC"
-  type = string
-  default = "10.0.0.0/16"
+  type        = string
+  default     = "10.0.0.0/16"
 }
 variable "az1" {
   description = "Availability Zone 1"
-  type = string
-  default = "eu-west-1a"
+  type        = string
+  default     = "eu-west-1a"
 }
 variable "az2" {
   description = "Availability Zone 2"
-  type = string
-  default = "eu-west-1b"
+  type        = string
+  default     = "eu-west-1b"
 }
 variable "az3" {
   description = "Availability Zone 3"
-  type = string
-  default = "eu-west-1c"
+  type        = string
+  default     = "eu-west-1c"
 }
 variable "private_subnet_1" {
   description = "Private subnet AZ1"
-  type = string
-  default = "10.0.7.0/24"
+  type        = string
+  default     = "10.0.7.0/24"
 }
 variable "private_subnet_2" {
   description = "Private subnet AZ2"
-  type = string
-  default = "10.0.8.0/24"
+  type        = string
+  default     = "10.0.8.0/24"
 }
 variable "private_subnet_3" {
   description = "Private subnet AZ3"
-  type = string
-  default = "10.0.9.0/24"
+  type        = string
+  default     = "10.0.9.0/24"
 }
 variable "public_subnet_1" {
   description = "Public subnet AZ1"
-  type = string
-  default = "10.0.107.0/24"
+  type        = string
+  default     = "10.0.107.0/24"
 }
 variable "public_subnet_2" {
   description = "Public subnet AZ2"
-  type = string
-  default = "10.0.108.0/24"
+  type        = string
+  default     = "10.0.108.0/24"
 }
 variable "public_subnet_3" {
   description = "Public subnet AZ3"
-  type = string
-  default = "10.0.109.0/24"
+  type        = string
+  default     = "10.0.109.0/24"
 }
