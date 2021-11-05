@@ -1,6 +1,0 @@
-app_name_verbose           = "ha-wordpress"
-app_name_prefix            = "hawp"
-app_repository_name        = "github/aws-ecs-wp-terraform"
-aws_region                 = "eu-west-1"
-environment                = "lab"
-stage                      = "poc"

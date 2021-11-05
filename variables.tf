@@ -2,11 +2,13 @@
 variable "app_name_verbose" {
   type        = string
   description = "Name of the app/service which will use the CI/CD. Verbose version"
+  default     = "ha-wordpress"
 }
 
 variable "app_name_prefix" {
   type        = string
   description = "Name of the app/service which will use the CI/CD. Prefix (short) version"
+  default     = "hawp"
 }
 
 variable "app_repository_name" {
@@ -23,11 +25,13 @@ variable "aws_region" {
 variable "environment" {
   type        = string
   description = "Name of the environment in which the CI/CD will deploy (e.g. network, lab, application, DMZ)"
+  default     = "application/websites"
 }
 
 variable "stage" {
   type        = string
   description = "Name of the stage in which the CI/CD will deploy (e.g. dev, int, prod, test, ephemeral, canary, RC, seed)"
+  default     = "dev"
 }
 
 ####### VPC VARIABLES #######
