@@ -35,16 +35,6 @@ variable "stage" {
 }
 
 ####### VPC VARIABLES #######
-variable "vpc_name" {
-  description = "Common name for the VPC"
-  type        = string
-  default     = "hawp-vpc"
-}
-variable "vpc_cidr" {
-  description = "CIDR for the VPC"
-  type        = string
-  default     = "10.0.0.0/16"
-}
 variable "az1" {
   description = "Availability Zone 1"
   type        = string
@@ -89,4 +79,14 @@ variable "public_subnet_3" {
   description = "Public subnet AZ3"
   type        = string
   default     = "10.0.109.0/24"
+}
+variable "vpc_cidr" {
+  description = "CIDR for the VPC"
+  type        = string
+  default     = "10.0.0.0/16"
+}
+variable "vpc_name" {
+  description = "Common name for the VPC"
+  type        = string
+  default     = "hawp-vpc"
 }
