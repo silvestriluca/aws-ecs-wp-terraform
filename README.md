@@ -72,5 +72,13 @@ No modules.
 
 ## Outputs
 
-No outputs.
+| Name | Description |
+|------|-------------|
+| <a name="output_vpc"></a> [vpc](#output\_vpc) | VPC for app networking |
+| <a name="output_vpc_private_subnet_01"></a> [vpc\_private\_subnet\_01](#output\_vpc\_private\_subnet\_01) | Private subnet 1 |
+| <a name="output_vpc_private_subnet_02"></a> [vpc\_private\_subnet\_02](#output\_vpc\_private\_subnet\_02) | Private subnet 2 |
+| <a name="output_vpc_private_subnet_03"></a> [vpc\_private\_subnet\_03](#output\_vpc\_private\_subnet\_03) | Private subnet 3 |
+| <a name="output_vpc_public_subnet_01"></a> [vpc\_public\_subnet\_01](#output\_vpc\_public\_subnet\_01) | Public subnet 1 |
+| <a name="output_vpc_public_subnet_02"></a> [vpc\_public\_subnet\_02](#output\_vpc\_public\_subnet\_02) | Public subnet 2 |
+| <a name="output_vpc_public_subnet_03"></a> [vpc\_public\_subnet\_03](#output\_vpc\_public\_subnet\_03) | Public subnet 3 |
 <!-- END_TF_DOCS -->
